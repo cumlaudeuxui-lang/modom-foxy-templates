@@ -1,62 +1,10 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500&display=swap');
-
-* { font-family: 'Figtree', sans-serif !important; box-sizing: border-box; }
-
-body, .fc-sidebar { 
-  background: #f4f2ea !important; 
-  color: #292828 !important; 
-}
-
-.fc-cart__header {
-  background: #f4f2ea !important;
-  border-bottom: 1px solid rgba(41,40,40,0.2) !important;
-  padding: 16px 20px !important;
-}
-
-.fc-cart__header .fc-btn--checkout {
-  display: none !important;
-}
-
-.fc-cart__item {
-  background: #f4f2ea !important;
-  border-bottom: 0.5px solid rgba(41,40,40,0.15) !important;
-  padding: 16px 20px !important;
-}
-
-.fc-transaction__header {
-  border-top: 1px solid #292828 !important;
-  padding-top: 12px !important;
-  margin-top: 12px !important;
-  font-weight: 400 !important;
-}
-
-.fc-actions--payment a, 
-.fc-action--payment--checkout {
-  background: #292828 !important;
-  color: #f4f2ea !important;
-  border-radius: 999px !important;
-  border: none !important;
-  text-transform: uppercase !important;
-  letter-spacing: 0.08em !important;
-  font-size: 13px !important;
-  padding: 12px 24px !important;
-  display: block !important;
-  text-align: center !important;
-}
-
-.fc-action--continue {
-  background: transparent !important;
-  border: 1px solid #292828 !important;
-  color: #292828 !important;
-  border-radius: 999px !important;
-  text-align: center !important;
-  padding: 10px 24px !important;
-  display: block !important;
-  margin-top: 8px !important;
-}
-
+* { font-family: 'Figtree', sans-serif !important; }
+body, .fc-sidebar { background: #f4f2ea !important; color: #292828 !important; }
+.fc-cart__header { background: #f4f2ea !important; border-bottom: 0.5px solid rgba(41,40,40,0.2) !important; }
+.fc-cart__item { background: #f4f2ea !important; border-bottom: 0.5px solid rgba(41,40,40,0.15) !important; }
+.fc-transaction__header { border-top: 1px solid #292828 !important; padding-top: 12px !important; margin-top: 12px !important; }
+.fc-actions--payment a { background: #292828 !important; color: #f4f2ea !important; border-radius: 999px !important; border: none !important; text-transform: uppercase !important; letter-spacing: 0.08em !important; }
 a { color: #292828 !important; }
 </style>
-
-{% include 'fc_cart_include' %}
